@@ -1,0 +1,62 @@
+* {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.inpt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inpt label {
+    margin: 5px;
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+.inpt input {
+    margin: 5px;
+    width: 20vw;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.inpt button {
+    margin: 5px;
+    width: 20.2vw;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.task-list p {
+    margin: 10px;
+    width: 50vw;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.task-list {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50vw;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(bgbg2.jpg);
+}
+h1 {
+    font-size: 5rem;
+    color: whitesmoke;
+}
